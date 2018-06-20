@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/alcionei/github/react-native/reactNativeApp/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/alcionei/github/react-native/reactNativeApp/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/alcionei/github/reactNativeApp/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/alcionei/github/reactNativeApp/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]
