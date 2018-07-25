@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import { Actions } from 'react-native-router-flux';
 import { View, Text, Image, TouchableHighlight, StyleSheet } from 'react-native';
+
 
 export default class Produto extends Component {
     acessarProduto() {
-        
+        Actions.produto();
     }
 
     render() {
