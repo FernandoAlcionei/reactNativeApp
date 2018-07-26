@@ -3,6 +3,10 @@ import { View, Text, Image, ScrollView, TouchableHighlight, StyleSheet } from 'r
 
 export default class Produto extends Component{
 
+    constructor(props) {
+        super(props);
+    }
+
     render(){
         return(
             <View>
@@ -18,16 +22,16 @@ export default class Produto extends Component{
                     <View style={styles.infoProduto} >
                         <View>
                             <Text style={styles.nome}>
-                                Moto G 6
+                                {this.props.produto.nome}
                             </Text>
                         </View>
                         
                         <Text style={styles.dataDePublicacao}>
-                            Publicado em 07/08/2018
+                            Publicado em: {this.props.produto.dataDePublicacao}
                         </Text>
                         
                         <View style={styles.descricao} >
-                            <Text>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</Text>
+                            <Text>{this.props.produto.descricao}</Text>
                         </View>
                     </View>
                 </ScrollView>
