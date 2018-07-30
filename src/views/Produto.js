@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { View, Text, Image, ScrollView, TouchableHighlight, StyleSheet } from 'react-native';
+import { Actions } from 'react-native-router-flux';
+
 
 export default class Produto extends Component{
 
-    constructor(props) {
-        super(props);
+    visualizarImagens() {
+        Actions.galeria({'images': this.props.produto.imagens})
     }
 
     render(){
@@ -14,7 +16,7 @@ export default class Produto extends Component{
                     <TouchableHighlight
                         style={styles.containerImg}
                         underlayColor="#eaeaea"
-                        onPress={()=> console.log('ok')}>
+                        onPress={()=> this.visualizarImagens() }>
 
                         <Image source={require('../imgs/sprite.jpg')} style={styles.imgProduto}></Image>
                     </TouchableHighlight>

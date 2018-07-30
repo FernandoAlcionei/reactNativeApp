@@ -17,11 +17,19 @@ export default class ListagemDeProdutos extends Component{
                 {
                     'nome': 'Moto G 5',
                     'imagem': 'https://megamamute.vteximg.com.br/arquivos/ids/6750174-1000-1000/59651_Original.jpg?v=636282838156200000',
+                    'imagens': [
+                        'https://megamamute.vteximg.com.br/arquivos/ids/6750174-1000-1000/59651_Original.jpg?v=636282838156200000',
+                        'https://megamamute.vteximg.com.br/arquivos/ids/6750174-1000-1000/59651_Original.jpg?v=636282838156200000'
+                    ],
                     'descricao': 'Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.',
                     'dataDePublicacao': '22/07/2018'
                 }, {
                     'nome': 'Moto G 5',
                     'imagem': 'https://megamamute.vteximg.com.br/arquivos/ids/6750174-1000-1000/59651_Original.jpg?v=636282838156200000',
+                    'imagens': [
+                        'https://megamamute.vteximg.com.br/arquivos/ids/6750174-1000-1000/59651_Original.jpg?v=636282838156200000',
+                        'https://megamamute.vteximg.com.br/arquivos/ids/6750174-1000-1000/59651_Original.jpg?v=636282838156200000'
+                    ],
                     'descricao': 'Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.',
                     'dataDePublicacao': '22/07/2018'
                 }
